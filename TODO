@@ -1,0 +1,8 @@
+* 以下のコマンドの実行後、
+    inetfw.pl add rule name="test テスト" dir="in" action="allow"
+  「WF.msc」を起動して追加したルールを確認すると、
+  「name」で指定した日本語文字列部分で文字化けが発生する。
+  しかし、以下のコマンドの実行後、
+    echo 'add rule name="test テスト" dir="in" action="allow"' > test.txt
+    inetfw.pl -f test.txt
+  上記と同様に確認すると、文字化けは発生しない。

@@ -1,0 +1,4 @@
+"(name)"	"state"	"firewallpolicy"	"localfirewallrules"	"localconsecrules"	"inboundusernotification"	"remotemanagement"	"unicastresponsetomulticast"	"allowedconnections"	"droppedconnections"	"filename"	"maxfilesize"
+"""domainprofile"""	"""on"""	"""blockinbound,allowoutbound"""	"""N/A (GPO ストアのみ)"""	"""N/A (GPO ストアのみ)"""	"""enable"""	"""disable"""	"""enable"""	"""disable"""	"""disable"""	"%systemroot%""\\system32\\LogFiles\\Firewall\\pfirewall.log"""	"""4096"""
+"""privateprofile"""	"""on"""	"""blockinbound,allowoutbound"""	"""N/A (GPO ストアのみ)"""	"""N/A (GPO ストアのみ)"""	"""enable"""	"""disable"""	"""enable"""	"""disable"""	"""disable"""	"%systemroot%""\\system32\\LogFiles\\Firewall\\pfirewall.log"""	"""4096"""
+"""publicprofile"""	"""on"""	"""blockinbound,allowoutbound"""	"""N/A (GPO ストアのみ)"""	"""N/A (GPO ストアのみ)"""	"""enable"""	"""disable"""	"""enable"""	"""disable"""	"""disable"""	"%systemroot%""\\system32\\LogFiles\\Firewall\\pfirewall.log"""	"""4096"""

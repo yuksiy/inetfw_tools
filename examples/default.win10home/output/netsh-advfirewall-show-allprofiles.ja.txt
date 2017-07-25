@@ -1,0 +1,53 @@
+
+ドメイン プロファイル 設定: 
+----------------------------------------------------------------------
+State                                 オン
+Firewall Policy                       BlockInbound,AllowOutbound
+LocalFirewallRules                    N/A (GPO ストアのみ)
+LocalConSecRules                      N/A (GPO ストアのみ)
+InboundUserNotification               有効
+RemoteManagement                      無効
+UnicastResponseToMulticast            有効
+
+ログ:
+LogAllowedConnections                 無効
+LogDroppedConnections                 無効
+FileName                              %systemroot%\system32\LogFiles\Firewall\pfirewall.log
+MaxFileSize                           4096
+
+
+プライベート プロファイル 設定: 
+----------------------------------------------------------------------
+State                                 オン
+Firewall Policy                       BlockInbound,AllowOutbound
+LocalFirewallRules                    N/A (GPO ストアのみ)
+LocalConSecRules                      N/A (GPO ストアのみ)
+InboundUserNotification               有効
+RemoteManagement                      無効
+UnicastResponseToMulticast            有効
+
+ログ:
+LogAllowedConnections                 無効
+LogDroppedConnections                 無効
+FileName                              %systemroot%\system32\LogFiles\Firewall\pfirewall.log
+MaxFileSize                           4096
+
+
+パブリック プロファイル 設定: 
+----------------------------------------------------------------------
+State                                 オン
+Firewall Policy                       BlockInbound,AllowOutbound
+LocalFirewallRules                    N/A (GPO ストアのみ)
+LocalConSecRules                      N/A (GPO ストアのみ)
+InboundUserNotification               有効
+RemoteManagement                      無効
+UnicastResponseToMulticast            有効
+
+ログ:
+LogAllowedConnections                 無効
+LogDroppedConnections                 無効
+FileName                              %systemroot%\system32\LogFiles\Firewall\pfirewall.log
+MaxFileSize                           4096
+
+OK
+

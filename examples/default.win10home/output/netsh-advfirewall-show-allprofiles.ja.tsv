@@ -1,0 +1,4 @@
+"プロファイル名"	"State"	"Firewall Policy"	"LocalFirewallRules"	"LocalConSecRules"	"InboundUserNotification"	"RemoteManagement"	"UnicastResponseToMulticast"	"LogAllowedConnections"	"LogDroppedConnections"	"FileName"	"MaxFileSize"
+"ドメイン プロファイル 設定"	"オン"	"BlockInbound,AllowOutbound"	"N/A (GPO ストアのみ)"	"N/A (GPO ストアのみ)"	"有効"	"無効"	"有効"	"無効"	"無効"	"%systemroot%\system32\LogFiles\Firewall\pfirewall.log"	"4096"
+"プライベート プロファイル 設定"	"オン"	"BlockInbound,AllowOutbound"	"N/A (GPO ストアのみ)"	"N/A (GPO ストアのみ)"	"有効"	"無効"	"有効"	"無効"	"無効"	"%systemroot%\system32\LogFiles\Firewall\pfirewall.log"	"4096"
+"パブリック プロファイル 設定"	"オン"	"BlockInbound,AllowOutbound"	"N/A (GPO ストアのみ)"	"N/A (GPO ストアのみ)"	"有効"	"無効"	"有効"	"無効"	"無効"	"%systemroot%\system32\LogFiles\Firewall\pfirewall.log"	"4096"
